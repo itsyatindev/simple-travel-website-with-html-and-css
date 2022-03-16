@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.header { 
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pexels-asad-photo-maldives-2549020.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+}
+nav{
+    display:flex;
+    padding: 15px 100px;
+    align-items:center;
+    width: 95vw;
+}
+nav h1{
+    display: inline;
+    font-size:50px;
+    margin:40px 50px;
+    text-align:left;
+    text-decoration: wavy;
+    color: #fff;
+
+}
+nav ul{
+    text-align:right;
+    display:inline;
+    list-style:none;
+    flex:5;
+    margin: 20px 200px;
+    font: 150px;
+    line-height: 40px; 
+}
+nav ul li{
+    margin: 20px 20px;
+    display: inline-block;
+    justify-content: space-evenly;
+    font-weight: 500;
+    text-decoration: solid;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: #000;
+}
+.main-text{
+    margin: 12% auto;
+    text-align: center;
+    font-size: larger;
+}
+.main-text h1{
+        font-size: 60px;
+        font-weight:bolder;
+}
+.button{
+    width:150px;
+    height:40px;
+    margin: 25px auto;
+    display:block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    border-radius: 30px;
+    animation-delay: inherit;
+}
+.button:hover{
+    background-color: rgb(114, 180, 235);
+    color: black;
+    transition: 0.01s;
+    border: 1px solid rgb(108, 175, 230);
+}
